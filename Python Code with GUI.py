@@ -506,7 +506,7 @@ def generate_output():
     print("Images resized and saved into designated folder")
        
     #Load model  
-    model=load_model('./Merged Dataset Models/JANABHATT1.h5')
+    model=load_model('./Merged Dataset Models/CNN_Model.h5')
     print(model.summary())
 
     import string
